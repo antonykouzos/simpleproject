@@ -45,32 +45,35 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <title>DataTeam Solutions ECM Mobile</title>
     </head>
-    <body>    
-    	<div class="loading-page event listening" data-role="page" data-theme='b'>
+    <body> 
+    	
+    	
+    	    <div class="app">
+    	
+    	   
+    	<div class="loading-page event listening" id="loader" data-role="page" data-theme='b'>
     		
     		<h1> Connecting to Device ... </h1>
     		<img src="img/DataTeamSolutionsECMwhite.png" />
     		
     		
     		</div> 
-    	 <div class="app event received">
-    <div data-role="page" data-theme='b'>
+    	
+    <div data-role="page" data-theme='b' id="app" class="app event received">
 
 
         <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
             <a href="index.html" data-ajax="false"><i class='fa fa-bars'></i></a>
             <h1>DTS ECM Mobile</h1>
+      
         </div>
-        
         <div data-role="content"> 
         	
         	  
 	        <div class='inset'>
 	        	
          
-                
-               
-            </div>
+          
 	        	<h1>Check out the header on top</h1>
 	        	<h2>and the footer on the bottom</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta metus ac nunc placerat congue. Donec non mauris vel nisi tristique iaculis. Nunc dui justo, semper quis tincidunt ut, pellentesque quis dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis dignissim massa quis orci feugiat imperdiet. Nunc eget suscipit orci. Aenean nec augue rhoncus, porta ligula in, pellentesque risus. Praesent ut enim non lacus posuere varius. Morbi in dapibus ante. Ut ornare convallis urna, et fringilla diam consectetur vitae. Proin iaculis elementum dolor, interdum blandit mauris rhoncus in. In pellentesque mi nibh, sed eleifend ante tincidunt et.</p>
@@ -99,11 +102,14 @@
      
          
         </div>
+        
+        
+         </div>
         <script type="text/javascript" src="cordova.js"></script>
         	<!-- jQuery / jQueryMobile Scripts -->
-		<script type="text/javascript"src="js/jquery-1-9-1-min.js"></script>
-        <script type="text/javascript"src="js/jquery.mobile-1.4.2.min.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+        <script type="text/javascript" src="/js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
             
@@ -113,9 +119,5 @@
         
         
         
-        
-        
-    
-
-    </body>
+ </body>
 </html>
