@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.myproject" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>DTS ECM Mobile</name>
+    <description>
+        A sample Apache Cordova application that with screenshots..
+    </description>
+    <author email="antonykouzos@gmail.com" href="datateamsolutions.com">
+        Anthony Kouzos
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
+ <platform name="android">
+              <icon src="img/logo.png" density="ldpi" />
+              <icon src="img/logo.png"  density="mdpi" />
+              <icon src="img/logo.png"  density="hdpi" />
+              <icon src="img/logo.png"  density="xhdpi" />
+     </platform>
