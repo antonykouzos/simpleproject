@@ -8,11 +8,10 @@
         Anthony Kouzos
     </author>
     <content src="index.html" />
-    <access origin="*" />
-</widget>
- <platform name="android">
+    <access origin="*" /> <platform name="android">
               <icon src="img/logo.png" density="ldpi" />
               <icon src="img/logo.png"  density="mdpi" />
               <icon src="img/logo.png"  density="hdpi" />
               <icon src="img/logo.png"  density="xhdpi" />
      </platform>
+</widget>
