@@ -19,103 +19,71 @@
 -->
 <html>
     <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-       
-       
-      	<!-- FontAwesome - http://fortawesome.github.io/Font-Awesome/ -->
-        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <meta charset="utf-8">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height"/>
+        
+        <title>Sensation</title>
 
-		<!-- jQueryMobileCSS - original without styling -->
-		<link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" />
-
-		<!-- nativeDroid core CSS -->
-        <link rel="stylesheet" href="css/jquerymobile.nativedroid.css" />
-
-		<!-- nativeDroid: Light/Dark -->
-        <link rel="stylesheet" href="css/jquerymobile.nativedroid.light.css"  id='jQMnDTheme' />
-
-		<!-- nativeDroid: Color Schemes -->
-        <link rel="stylesheet" href="css/jquerymobile.nativedroid.color.red.css" id='jQMnDColor' />
-
-	
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <title>DataTeam Solutions ECM Mobile</title>
-    </head>
-    <body> 
-    	
-    	
-    	    <div class="app">
-    		<div class="loading-page event listening" id="loader" data-role="page" data-theme='b'>
-    		
+        <link rel="stylesheet" type="text/css" href="vendors/onsen/css/onsenui.css"/>
     
-    		<a href="#app"><img src="img/DataTeamSolutionsECMwhite.png"  alt=" Connecting to Device"/></a>
-    		</div> 
-    	
-    <div data-role="page" data-theme='b' id="app" class="app event received">
-
-
-        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
-            <a href="#mypanel" data-role='button' data-inline='true'><i class='fa fa-bars'></i></a>
-            <h1>DTS ECM Mobile</h1>
-      
-        </div>
-        <div data-role="content"> 
-        	
-        	  
-	        <div class='inset'>
-	        	
-         
-          
-	        	<h1>Check out the header on top</h1>
-	        	<h2>and the footer on the bottom</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta metus ac nunc placerat congue. Donec non mauris vel nisi tristique iaculis. Nunc dui justo, semper quis tincidunt ut, pellentesque quis dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis dignissim massa quis orci feugiat imperdiet. Nunc eget suscipit orci. Aenean nec augue rhoncus, porta ligula in, pellentesque risus. Praesent ut enim non lacus posuere varius. Morbi in dapibus ante. Ut ornare convallis urna, et fringilla diam consectetur vitae. Proin iaculis elementum dolor, interdum blandit mauris rhoncus in. In pellentesque mi nibh, sed eleifend ante tincidunt et.</p>
-				<p>Nullam eget elit ut quam luctus ultricies ac id dui. Praesent eros velit, egestas a vehicula a, consectetur ut felis. Praesent at risus convallis, sagittis sem et, egestas dui. Quisque ultricies augue libero, vitae pellentesque purus egestas eget. Integer adipiscing nisl in augue faucibus pellentesque. Ut sodales massa ipsum, eget convallis nunc sagittis vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-				<p>Suspendisse ornare ullamcorper massa eget sagittis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer porttitor mauris neque, nec venenatis mi venenatis ut. Vivamus blandit odio tempor blandit aliquam. Sed eu feugiat quam. Ut quis ligula ut sapien pretium vehicula ac vitae nisl. In nec odio mauris. Nulla ultricies libero non sapien ullamcorper, eu lacinia diam vestibulum. Cras tortor metus, blandit eget consequat ut, ullamcorper at neque. Nulla nec velit non purus congue dapibus. Etiam et elementum nulla. In eu odio dui. Sed tristique ligula ipsum, vitae auctor est volutpat eget.</p>
-				<p>Proin gravida tristique accumsan. Nunc bibendum elit nunc, nec tempus urna porta id. Mauris aliquam consectetur nisl sed tincidunt. Proin eget erat ligula. Nulla id bibendum elit. Aliquam erat volutpat. Nunc luctus ullamcorper volutpat. Morbi pulvinar eros diam, in pellentesque urna elementum in. Duis cursus lacus felis, in venenatis elit commodo a. Donec eu purus quis ligula imperdiet vehicula quis in massa. Maecenas sed tortor porta augue pellentesque eleifend a sed magna. Mauris et erat vel mi fringilla sodales quis sed dui.</p>
-				<p>Donec interdum tortor vitae dolor laoreet semper. Nulla facilisi. Fusce vel diam faucibus, rhoncus risus nec, vulputate nunc. Cras vel dignissim dui. Pellentesque ut malesuada justo, nec congue ligula. Etiam sed felis vel velit accumsan rhoncus. Integer id ante euismod, mattis est id, pellentesque nibh. Pellentesque laoreet turpis aliquam ipsum vulputate pharetra. Nullam vitae tortor non arcu dapibus eleifend. Nullam tempus ligula ut risus egestas, in feugiat leo placerat.</p>
-	        </div>
-		</div>
-		
-<!--		<div data-role="footer" class="ui-bar" data-position="fixed" data-tap-toggle="false" data-theme='b'>
-            <h1 class="ui-title" role="heading" aria-level="1">Hi I'm a fixed footer.</h1>
-		</div> !-->
-
-		<div data-position="fixed" data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b'>
-			<div data-role="navbar">
-				<ul>
-					<li><a href="#"><i class='blIcon fa fa-cogs'></i>config</a></li>
-					<li><a href="#"><i class='blIcon fa fa-map-marker'></i>locate</a></li>
-					<li><a href="#"><i class='blIcon fa fa-share'></i>share it!</a></li>
-				</ul>
-			</div>
-		</div>
-
-    </div>
-     
-         
-        </div>
+        <link rel="stylesheet" type="text/css" href="vendors/onsen/css/onsen-css-components.css"/>
         
+        <!-- Download also your onsen-css-components.css stylesheet using the integrated CSS Components Theme Roller
+        http://components.onsenui.io -->
         
-         </div>
+        <!--<link rel="stylesheet" type="text/css" href="css/onsen-css-components-gray.css"/>-->
+        <!--<link rel="stylesheet" type="text/css" href="css/onsen-css-components-blue.css"/>-->
+        <!--<link rel="stylesheet" type="text/css" href="css/onsen-css-components-red.css"/>-->
+        <!--<link rel="stylesheet" type="text/css" href="css/onsen-css-components-purple.css"/>-->
+
+        <link rel="stylesheet" type="text/css" href="css/angular-carousel.css"/>
+        
+        <!-- NVD3 re-usable charting library (based on D3) -->
+        <link rel="stylesheet" type="text/css" href="css/nvd3/nv.d3.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        
+    </head>
+    <body>
+
+        <ons-sliding-menu menu-page="menu.html" main-page="home.html" side="left" max-slide-distance="85%" swipable="true" swipe-target-width="100" var="menu">
+        </ons-sliding-menu>
+        
+        <!-- Javascripts -->
+        <script type="text/javascript" src="vendors/onsen/js/angular/angular.js"></script>    
+        <script type="text/javascript" src="vendors/onsen/js/angular/angular-touch.js"></script>
+
+        <script type="text/javascript" src="vendors/onsen/js/onsenui.js"></script>
+        
+        <script type="text/javascript" src="js/angular-carousel.js"></script>
+
+        <script type="text/javascript"src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script type="text/javascript" src="js/lodash.underscore.min.js"></script>
+        <script type="text/javascript" src="js/angular-google-maps.min.js"></script>
+        
+        <script type="text/javascript" src="js/event.js"></script>
+        <script type="text/javascript" src="js/ui-map.js"></script>
+        <script type="text/javascript" src="js/angular-local-storage.js"></script>
+        <script type="text/javascript" src="js/angular-sanitize.js"></script>
+        
+        <!-- NVD3 re-usable charting library (based on D3) -->
+        <script type="text/javascript" src="js/nvd3/d3.min.js"></script>
+        <script type="text/javascript" src="js/nvd3/nv.d3.min.js"></script>
+        <script type="text/javascript" src="js/nvd3/angular-nvd3.min.js"></script>
+        
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/data.js"></script>
+        <script type="text/javascript" src="js/app-local-storage.js"></script>
+        
+        <script src="js/jquery-1.11.1.min.js"></script>
+        
         <script type="text/javascript" src="cordova.js"></script>
-        	<!-- jQuery / jQueryMobile Scripts -->
-		<script src="lib/js/jguery-1-9-1-min.js"></script>
-        <script src="lib/js/jquery.mobile-1.4.2.min.js"></script>
-            <script src="lib/js/nativedroid.script.js"></script>
 
-        <script type="text/javascript" src="/js/index.js"></script>
         <script type="text/javascript">
-            app.initialize();
-            
-            
-            
+        app.initialize();
         </script>
         
-        
-        
- </body>
+    </body>
 </html>

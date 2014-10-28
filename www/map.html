@@ -1,0 +1,19 @@
+<ons-page class="map" ng-controller="MapController" sliding-menu-ignore="true">
+    
+    <ons-toolbar>
+    <div class="left"><ons-back-button>Back</ons-back-button></div>
+    <div class="center">Map</div>
+    </ons-toolbar>
+
+    <google-map center="map.center" zoom="map.zoom" draggable="true">
+
+        <marker ng-repeat="marker in map.markers" coords="marker" icon="marker.icon" click="onMarkerClicked(marker)">
+            <window coords="marker" isIconVisibleOnClick="false">
+            {{marker.title}}<br/>
+            at {{marker}}
+            </window>
+        </marker>
+
+    </google-map>
+
+</ons-page>

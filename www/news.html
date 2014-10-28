@@ -1,0 +1,29 @@
+<ons-page ng-controller="NewsController">
+    
+    <ons-toolbar>
+    <div class="left"><ons-back-button>Back</ons-back-button></div>
+    <div class="center">News</div>
+    </ons-toolbar>
+    
+    <section style="padding: 10px;">
+        <div ng-repeat="new in news">
+        <ons-row style="padding: 0 0 10px 0;">
+            <ons-col>
+                <section style="padding: 0 10px 0 0;">
+                <img ng-src="{{new.picture}}"alt="{{new.title}}" ng-click="showDetail($index)"/>
+                </section>
+            </ons-col>
+            <ons-col>
+                <section>
+                <h3 class="title" ng-click="showDetail($index)">{{new.title}}</h3>
+                <p ng-model="letterLimit">{{new.body | limitTo:letterLimit  }}...</p>
+                <p class="tags"><ons-icon icon="tags" fixed-width="true"></ons-icon>
+                <span ng-repeat="tag in new.tags">{{tag}}{{$last ? '' : ', '}}</span>
+                </p>
+                </section>
+            </ons-col>
+        </ons-row>
+        </div>
+    </section>
+    
+</ons-page>
